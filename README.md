@@ -1,2 +1,2 @@
-# fall-fatou.github.io
+# Fall-Fatou.github.io
 nothing
