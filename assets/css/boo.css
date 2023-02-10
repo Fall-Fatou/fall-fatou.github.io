@@ -1,0 +1,9 @@
+div .div-1 {
+    display: block;
+    position: relative;
+}
+
+.div-2 {
+    display: flex;
+    position: absolute;
+}

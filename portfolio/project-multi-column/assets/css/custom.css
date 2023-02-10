@@ -1,0 +1,17 @@
+/* Add your custom CSS here */
+.section-selector-1 { background-color: var(--lime-400) }
+
+.cols-2-half .col-2 h2 {
+	font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1140 - 320)));
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+	line-height: 1.2;
+}
+
+.section-selector-1.cols-2-half .col-2 h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1140 - 320)));
+    margin-top: 32px;
+    margin-bottom: 0;
+}
