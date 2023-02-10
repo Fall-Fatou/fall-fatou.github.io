@@ -15,3 +15,33 @@
     margin-top: 32px;
     margin-bottom: 0;
 }
+
+.section-selector-2 { font-family: 'Playfair Display', serif }
+
+.section-selector-3 { background-color: var(--trend-800) }
+.section-selector-3 .col-3 h3 { color: var(--sky-300) }
+.section-selector-3 .col-3 p { color: var(--slate-200) }
+.section-selector-3 .col-3 li { color: var(--slate-200) }
+.section-selector-3.theme-light .cols-background .col-3 { background-color: var(--trend-700) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--sky-300) }
+.section-selector-3 .col-1 h2 { color: var(--sky-300) }
+.section-selector-3 .col-1 h3 { color: var(--slate-200) }
+.section-selector-3 {
+    background-image: linear-gradient(to top right, #0f172a, #1c2c51);
+    font-family: 'Inter', sans-serif;
+ }
+
+ .section-selector-3 .col-1 h2 { font-weight: 200 }
+.section-selector-3 .col-3 h3 { font-weight: 400 }
+
+.section-selector-3 .flex-cols-3 > .col-3 > figure.icon.icon-small i[class^="la"] {
+    font-size: 60px;
+    margin-bottom: -24px !important;
+}
+
+.section-selector-3 .cols-padding div[class^="col-"] figure.icon-left i { margin-left: 16px }
+.section-selector-3 div[class^="col-"] figure.icon { margin-bottom: 20px } 
+
+.section-selector-3 .col-1 > h2 {
+    font-size: calc(28px + (64 - 28) * ((100vw - 320px) / (1140 - 320)));
+}
