@@ -1,0 +1,7 @@
+/* Add your custom CSS here */
+
+header.theme-light { background-color: var(--trend-800) }
+header.theme-light { background-image: linear-gradient(var(--trend-800), white) }
+header.theme-light h1 span.higlight{color:var(--geen-200) ;  }
+
+.theme-light.section-selector-1 { background-color: var(--teal-200) }
