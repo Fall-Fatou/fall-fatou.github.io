@@ -1,4 +1,7 @@
 /*add your custom css here*/
+body {font-family: 'Playfair Display', serif; font-weight: 400;}
+
+
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
 nav.theme-dark,
@@ -19,6 +22,17 @@ nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
+
+header h1 {font-size: var(--font-size-xxl);}
+.col-1 > h2, header .col-text h1 {
+	letter-spacing: 2px;
+}
+header h1 {
+	letter-spacing: 2px;
+	line-height: 1.1;
+}
+header.theme-dark h1 { color: var(--pink-700) }
+
 header.theme-dark .container-btn a.btn:nth-child(1):link,
 header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
 
@@ -50,6 +64,10 @@ header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(
 header.theme-dark .container-btn a.btn:nth-child(2):focus,
 header.theme-dark .container-btn a.btn:nth-child(2):hover,
 header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--orange-600) }
+
+ul.links-wrapper.links-bold li a:not(.btn) {
+	font-weight: 900;
+}
 
 nav.theme-dark a#btn-cta:link,
 nav.theme-dark a#btn-cta:visited { color: var(--orange-500) }
@@ -83,3 +101,37 @@ nav.theme-dark ul.links-wrapper li a:active { color: var(--slate-200) }
 .section-selector-1 a.btn:active { border-color: var(--orange-600) }
 
 .section-selector-1.theme-light .cols-background .col-3 { background-color: var(--orange-500) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--white-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--white-000) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--orange-500) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--orange-600) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--orange-500) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--orange-600) }
+
+.section-selector-1 .col-3 h3 { color: var(--pink-700) }
+.section-selector-1 .cols-shadows .col-3 { box-shadow: rgba(0,undefined,undefined,0.9) 14px 14px 14px 0 }
+
+footer.theme-dark {
+	background-color: var(--black-000);
+}
+
+footer h2 { color: var(--pink-700) !important}
+
+.section-selector-1.theme-dark h2 {
+	color: var(--pink-700) ;
+}
+
