@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sayGreeting(message) {
+            // Function body code goes here
+            console.log(`My greeting is: ${message}`);
+        }
+        
+        sayGreeting("Have a nice day!");
+
+        function joinStrings() {
+            let string1 = "Fall";
+            let string2 = "Fatou";
+            console.log(`My name is ${string1} ${string2}`);
+        }
+
+        joinStrings();
+
+
+    // Function declaration with parameters
+    //function addNumbers(a, b) {
+    //console.log(`Output: ${a + b}`);
+    //}
+
+    // Function call with arguments
+    //addNumbers(1, 2);
+
+    // Function call with arguments
+    // Includes variable to access the function's returned value
+    //let result = addNumbers(1, 2);
+    //console.log(`Returned result: ${result}`);
+
+    //var hello = "some text";
+
+    //***************************************************
+
+    //function declaration expression - anonymous function
+    sayHello();
+
+    function sayHello() {
+            // Function body code goes here
+            console.log("And Hello to you too!");
+        }
+
+    
+    const helloFunc = function() {
+    // Function body code goes here
+    console.log("And Hello to also!");
+    };
+
+    helloFunc();
+
+    // Anonymous function expression with parameters		
+    const addNumbers = function (a, b) {
+    console.log(`Output: ${a + b}`);
+    return (a + b);
+    }
+			
+    // Function call with arguments
+    // Includes variable to access the function's returned value
+    let result = addNumbers(1, 2);
+    console.log(`Returned result: ${result}`);
+        
+
+    const helloYou = () => {
+    // Function body code goes here
+    console.log("Have a nice day from Arrow Function!");
+    };
+
+    helloYou();
+
+    // squares the input parameter
+    const squareNum = num => (num * num);
+    const result1 = squareNum(4);
+    console.log(result1);
+
+    // divides input parameter by 2
+    const halfNum = num => (num / 2);
+    const result2 = halfNum(25);
+    console.log(result2);
+
+    // adds 15 to price of product
+    const increasePrice = num => (num + 15);
+    const result3 = increasePrice(100);
+    console.log(result3);
+
+
+
+    for (let i = 1; i <= 5; i++) {
+    // perform statements(s);
+    }
+
+    for (let counter = 1; counter <= 10; counter++) {
+    // perform statements(s);
+    }
+
+
+    for (let i = 1; i <= 20; i++) {
+        if (i == 13) {
+            continue;
+        }
+    // perform statement;
+    document.write(`<b>${i}</b> | `);
+    }
+
+    // create an array of names
+    const users =["Bridget","Carol","Christine","Deborah"];
+    
+    //create an array of five cars
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+    // create an array of five fruits
+    const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+
+    console.log("Item a location 0 is: " + users[0]);
+    console.log("Item a location 4 is: " + cars[4]);
+    console.log("Item a location 2 is: " + fruits[2]);
+
+    // create an array of f1 teams
+    const f1Teams = ["Mercedes", "Red Bull", "Ferrari", "McLaren", "Alpine", "Alpha Tauri", "Aston Martin", "Alfa Romeo", "Williams"];
+
+    for (i = 0; i <= 8; i++) {
+        document.write(`<p>F1 team name: <b>${i} is: ${f1Teams[i]}</b></p>`);
+}
+    </script>
+</body>
+</html>
