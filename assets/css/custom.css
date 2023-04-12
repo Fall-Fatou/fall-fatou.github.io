@@ -1,23 +1,12 @@
 /*add your custom css here*/
 body {font-family: 'Playfair Display', serif; font-weight: 400;}
 
-
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-600) }
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-600) }
-nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--amber-600) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--amber-600) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
 nav.theme-dark,
@@ -32,9 +21,14 @@ header h1 {
 	line-height: 1.1;
 }
 header.theme-dark h1 { color: var(--orange-500) }
+header .col-text h1 {
+	font-size: var(--font-size-xxl);
+	letter-spacing: -1px;
+	line-height: 1.2;
+	font-weight: 400;
+	font-size: calc(var(--font-size-xxl) * 1.5);
+}
 
-header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
 
 header.theme-dark .container-btn a.btn:nth-child(1):focus,
 header.theme-dark .container-btn a.btn:nth-child(1):hover,
