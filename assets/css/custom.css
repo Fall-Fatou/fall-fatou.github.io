@@ -31,7 +31,7 @@ header h1 {
 	letter-spacing: 2px;
 	line-height: 1.1;
 }
-header.theme-dark h1 { color: var(--pink-700) }
+header.theme-dark h1 { color: var(--orange-500) }
 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
 header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
@@ -122,16 +122,16 @@ nav.theme-dark ul.links-wrapper li a:active { color: var(--slate-200) }
 .section-selector-1 a.btn:hover,
 .section-selector-1 a.btn:active { border-color: var(--orange-600) }
 
-.section-selector-1 .col-3 h3 { color: var(--pink-700) }
+.section-selector-1 .col-3 h3 { color: var(--orange-500) }
 .section-selector-1 .cols-shadows .col-3 { box-shadow: rgba(0,undefined,undefined,0.9) 14px 14px 14px 0 }
 
 footer.theme-dark {
 	background-color: var(--black-000);
 }
 
-footer h2 { color: var(--pink-700) !important}
+footer h2 { color: var(--orange-500) !important}
 
 .section-selector-1.theme-dark h2 {
-	color: var(--pink-700) ;
+	color: var(--orange-500) ;
 }
 
