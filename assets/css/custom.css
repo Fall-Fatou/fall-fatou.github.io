@@ -2,15 +2,15 @@
 body {font-family: 'Playfair Display', serif; font-weight: 400;}
 
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
+nav.theme-dark ul.links-wrapper.active { background-color: #57C5B6 }
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-600) }
+nav.theme-dark ul.links-wrapper.active { background-color: #57C5B6 }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--amber-600) }
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
+nav.theme-dark ul.links-wrapper.active { background-color: #57C5B6 }
 nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--orange-500) }
+nav.theme-dark ul.links-wrapper.active { background-color: #57C5B6 }
 
 header h1 {font-size: var(--font-size-xxl);}
 .col-1 > h2, header .col-text h1 {
@@ -20,7 +20,10 @@ header h1 {
 	letter-spacing: 2px;
 	line-height: 1.1;
 }
-header.theme-dark h1 { color: var(--orange-500) }
+header.theme-dark{
+	background-color: var(--gray-900);
+}
+header.theme-dark h1 { color: #57C5B6 }
 
 header .col-text h1 , header h1 {
 	font-size: var(--font-size-xxl);
@@ -36,44 +39,44 @@ header.theme-dark .container-btn a.btn:nth-child(1):hover,
 header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--white-000) }
 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--orange-500) }
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: #57C5B6 }
 
 header.theme-dark .container-btn a.btn:nth-child(1):focus,
 header.theme-dark .container-btn a.btn:nth-child(1):hover,
-header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--orange-600) }
+header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: #57C5B6 }
 
 header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--orange-500) }
+header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: #57C5B6 }
 
 header.theme-dark .container-btn a.btn:nth-child(1):focus,
 header.theme-dark .container-btn a.btn:nth-child(1):hover,
-header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--orange-600) }
+header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: #57C5B6 }
 
 header.theme-dark .container-btn a.btn:nth-child(2):focus,
 header.theme-dark .container-btn a.btn:nth-child(2):hover,
-header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--orange-600) }
+header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: #57C5B6 }
 
 header.theme-dark .container-btn a.btn:nth-child(2):link,
-header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--orange-500) }
+header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: #57C5B6 }
 
 header.theme-dark .container-btn a.btn:nth-child(2):focus,
 header.theme-dark .container-btn a.btn:nth-child(2):hover,
-header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--orange-600) }
+header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: #57C5B6 }
 
 ul.links-wrapper.links-bold li a:not(.btn) {
 	font-weight: 900;
 }
 
 nav.theme-dark a#btn-cta:link,
-nav.theme-dark a#btn-cta:visited { color: var(--orange-500) }
+nav.theme-dark a#btn-cta:visited { color:var(--gray-900) }
 nav.theme-dark a#btn-cta:focus,
 nav.theme-dark a#btn-cta:hover,
-nav.theme-dark a#btn-cta:active { color: var(--orange-600) }
+nav.theme-dark a#btn-cta:active { color: var(--gray-900) }
 nav.theme-dark ul.links-wrapper li a:link,
 nav.theme-dark ul.links-wrapper li a:visited { color: var(--white-000) }
 nav.theme-dark ul.links-wrapper li a:focus,
 nav.theme-dark ul.links-wrapper li a:hover,
-nav.theme-dark ul.links-wrapper li a:active { color: var(--slate-200) }
+nav.theme-dark ul.links-wrapper li a:active { color: var(--gray-900) }
 .section-selector-1 a.btn:link,
 .section-selector-1 a.btn:visited { color: var(--white-000) }
 
@@ -82,20 +85,20 @@ nav.theme-dark ul.links-wrapper li a:active { color: var(--slate-200) }
 .section-selector-1 a.btn:active { color: var(--white-000) }
 
 .section-selector-1 a.btn:link,
-.section-selector-1 a.btn:visited { background-color: var(--orange-500) }
+.section-selector-1 a.btn:visited { background-color: #57C5B6 }
 
 .section-selector-1 a.btn:focus,
 .section-selector-1 a.btn:hover,
-.section-selector-1 a.btn:active { background-color: var(--orange-600) }
+.section-selector-1 a.btn:active { background-color: #57C5B6 }
 
 .section-selector-1 a.btn:link,
-.section-selector-1 a.btn:visited { border-color: var(--orange-500) }
+.section-selector-1 a.btn:visited { border-color: #57C5B6 }
 
 .section-selector-1 a.btn:focus,
 .section-selector-1 a.btn:hover,
-.section-selector-1 a.btn:active { border-color: var(--orange-600) }
+.section-selector-1 a.btn:active { border-color: #57C5B6 }
 
-.section-selector-1.theme-light .cols-background .col-3 { background-color: var(--orange-500) }
+.section-selector-1.theme-light .cols-background .col-3 { background-color: var(--gray-900) }
 .section-selector-1 a.btn:link,
 .section-selector-1 a.btn:visited { color: var(--white-000) }
 
@@ -104,32 +107,51 @@ nav.theme-dark ul.links-wrapper li a:active { color: var(--slate-200) }
 .section-selector-1 a.btn:active { color: var(--white-000) }
 
 .section-selector-1 a.btn:link,
-.section-selector-1 a.btn:visited { background-color: var(--orange-500) }
+.section-selector-1 a.btn:visited { background-color: var(--gray-900) }
 
 .section-selector-1 a.btn:focus,
 .section-selector-1 a.btn:hover,
-.section-selector-1 a.btn:active { background-color: var(--orange-600) }
+.section-selector-1 a.btn:active { background-color: var(--gray-900) }
 
 .section-selector-1 a.btn:link,
-.section-selector-1 a.btn:visited { border-color: var(--orange-500) }
+.section-selector-1 a.btn:visited { border-color: var(--gray-900) }
 
 .section-selector-1 a.btn:focus,
 .section-selector-1 a.btn:hover,
-.section-selector-1 a.btn:active { border-color: var(--orange-600) }
+.section-selector-1 a.btn:active { border-color: var(--gray-900) }
 
-.section-selector-1 .col-3 h3 { color: var(--orange-500) }
+.section-selector-1 .col-3 h3 { color: #57C5B6 }
 .section-selector-1 .cols-shadows .col-3 { box-shadow: rgba(0,undefined,undefined,0.9) 14px 14px 14px 0 }
 
 footer.theme-dark {
-	background-color: var(--black-000);
+	background-color: var(--gray-900);
 }
 
-footer h2 { color: var(--orange-500) !important}
+footer h2 { color: #57C5B6 !important}
 
 .section-selector-1.theme-dark h2 {
-	color: var(--orange-500) ;
+	color: var(--gray-900) ;
 }
 
 section.theme-dark  {
-	background-color: var(--gray-900);
+	background-color: #57C5B6;
+}
+
+.theme-dark .col-1 h3.in-col-1, .theme-dark .col-1 h3 {
+	color: var(--slate-900);
+	line-height: 1.7;
+}
+
+.theme-dark a:not(.btn):link, .theme-dark a:not(.btn):visited {
+	color: var(--sky-900);
+}
+.theme-dark a:not(.btn):hover, .theme-dark a:not(.btn):active {
+	color: var(--sky-600);
+}
+
+.footer-links a:not(.btn):link, .footer-links a:not(.btn):visited {
+	color: var(--white-000);
+}
+.footer-links a:not(.btn):hover, .footer-links a:not(.btn):active {
+	color: var(--sky-600);
 }
